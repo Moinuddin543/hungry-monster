@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    width:90px;
+    height:70px;
+}
+h1{
+    font-size:30px;
+    font-weight: bold;
+}
+h2{
+    font-size:25px;
+    font-weight: bold;
+}
+h3{
+    font-size:20px;
+    font-weight: bold;
+}
+p{   
+    font-size:16px;
+    font-weight:400;
+    line-height:35px;
+    color: #6C6C6C;
+}
+
+.navbar .nav-link{
+    font-weight:bold;
+    font-size: 20px;   
+}
+
+#meal-input{
+    border-radius:10px 0 0 10px;
+    border:none;
+    background-color: #F8F7F5;
+    padding:20px;
+}
+#search-btn{    
+    font-size: 16px;
+    border-radius:5px;
+    color:#FFFFFF;
+    background:#F06C4E;
+    padding: 20px;
+    border-radius:0 10px 10px 0;    
+}
+
+#meal-input:focus,
+#search-btn:focus {
+    box-shadow: none!important;
+}
+
+#meal-input:focus {
+    background-color: #F8F7F5;
+}
+.meal{
+    cursor: pointer;
+}
+.card-body{
+    background-color:#F8F7F5 ;
+}
+.card{
+    border:none;
+    border-radius: 10px;
+    background:#F8F7F5;
+     
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.mealDiv .card {
+     background:#FFFFFF;
+}
+
+#meal-detail img{
+     background:#E5E5E5;
+     border-radius: 10px;
+}
+
+.fas{
+    color:#EC6E4C;
+}
